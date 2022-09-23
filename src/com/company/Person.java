@@ -38,6 +38,10 @@ public class Person {
         this.age = age;
     }
 
+    public void setBDate(Date bDate) {
+        this.bDate = bDate;
+    }
+
     public Date getbDate() {
         return bDate;
     }

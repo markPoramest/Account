@@ -68,6 +68,14 @@ public class Account {
         this.balance -= amount;
     }
 
+    public Person getObjPerson() {
+        return objPerson;
+    }
+
+    public void setObjPerson(Person objPerson) {
+        this.objPerson = objPerson;
+    }
+
     @Override
     public String toString() {
         return "Account{" +
